@@ -1,26 +1,46 @@
 
-## Yuhe Home
+# Nextjs Template
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev 
+- 使用 Next.js 14
+- 使用 Next Intl 实现国际化
+- 使用 ESLint 进行代码检查
+- 使用 Prettier 进行代码格式化
+
+## 目录结构
+
+```plaintext
+nextjs-template/
+├── public/
+├── src/
+│   ├── app/
+│   ├── components/
+│   ├── lib/
+│   ├── types/
+│   └── utils/
+├── .env
+├── .eslintrc.js
+├── .prettierrc.js
+├── next.config.js
 ```
 
-## Next Docs
+## 使用
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 安装依赖
 
-## Deploy on Vercel
+```bash
+npm install
+```
 
-more details: [Next.js deployment documentation](https://nextjs.org/docs/deployment)
+### 本地开发
 
-## 插件
+```bash
+npm run dev
+```
 
-- 图标lucide: <https://lucide.dev/icons/categories>
+### 打包
 
-## 参考文章
-
-[我为独立开发者开发落地页模板（下）](https://weijunext.com/article/ship-langding-page-fast2#%E5%9B%BD%E9%99%85%E5%8C%96%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)
-[独立开发者出海周刊](https://gapis.money/)
+```bash
+npm run build
+```
