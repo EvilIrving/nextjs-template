@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* 白色背景 */
+    --foreground: 222.2 84% 4.9%; /* 深灰色文本 */
+    --card: 0 0% 100%; /* 白色卡片背景 */
+    --card-foreground: 222.2 84% 4.9%; /* 深灰色卡片文本 */
+    --popover: 0 0% 100%; /* 白色弹出框背景 */
+    --popover-foreground: 222.2 84% 4.9%; /* 深灰色弹出框文本 */
+
+    --primary: 24.6 95% 53.1%; /* 橘色主色调 */
+    --primary-foreground: 0 0% 100%; /* 白色文本 */
+
+    --secondary: 33 82% 64%; /* 浅橘色次要色 */
+    --secondary-foreground: 222.2 47.4% 11.2%; /* 深灰色次要文本 */
+
+    --muted: 210 16% 90%; /* 柔和灰色 */
+    --muted-foreground: 215.4 16.3% 46.9%; /* 中灰色 */
+
+    --accent: 33 82% 64%; /* 与次要色相同的橙色 */
+    --accent-foreground: 222.2 47.4% 11.2%; /* 深灰色文本 */
+
+    --destructive: 0 84.2% 60.2%; /* 红色 */
+    --destructive-foreground: 0 0% 100%; /* 白色文本 */
+
+    --border: 214.3 31.8% 91.4%; /* 浅蓝灰色 */
+    --input: 214.3 31.8% 91.4%; /* 与边框一致 */
+    --ring: 24.6 95% 53.1%; /* 与主色调一致的橘色 */
+
+    --radius: 0.5rem; /* 圆角 */
+
+    /* 图表颜色调和 */
+    --chart-1: 33 82% 64%; /* 浅橙色 */
+    --chart-2: 173 58% 39%; /* 柔和蓝绿色 */
+    --chart-3: 197 37% 24%; /* 深蓝绿色 */
+    --chart-4: 43 74% 66%; /* 明亮黄色 */
+    --chart-5: 27 87% 67%; /* 柔和橙色 */
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%; /* 深灰色背景 */
+    --foreground: 210 40% 98%; /* 浅灰色文本 */
+    --card: 222.2 84% 4.9%; /* 深灰色卡片背景 */
+    --card-foreground: 210 40% 98%; /* 浅灰色卡片文本 */
+    --popover: 222.2 84% 4.9%; /* 深灰色弹出框背景 */
+    --popover-foreground: 210 40% 98%; /* 浅灰色文本 */
+
+    --primary: 24.6 95% 53.1%; /* 橘色主色调 */
+    --primary-foreground: 0 0% 100%; /* 白色文本 */
+
+    --secondary: 217.2 32.6% 17.5%; /* 深灰色次要色 */
+    --secondary-foreground: 210 40% 98%; /* 浅灰色文本 */
+
+    --muted: 217.2 32.6% 17.5%; /* 深灰色 */
+    --muted-foreground: 215 20.2% 65.1%; /* 中灰色文本 */
+
+    --accent: 217.2 32.6% 17.5%; /* 深灰色与次要色相同 */
+    --accent-foreground: 210 40% 98%; /* 浅灰色文本 */
+
+    --destructive: 0 62.8% 30.6%; /* 深红色 */
+    --destructive-foreground: 210 40% 98%; /* 浅灰色文本 */
+
+    --border: 217.2 32.6% 17.5%; /* 深灰色边框 */
+    --input: 217.2 32.6% 17.5%; /* 输入框与边框一致 */
+    --ring: 24.6 95% 53.1%; /* 橘色焦点环 */
+
+    /* 深色模式下的图表颜色调和 */
+    --chart-1: 24.6 95% 53.1%; /* 橘色 */
+    --chart-2: 160 60% 45%; /* 深绿蓝色 */
+    --chart-3: 30 80% 55%; /* 明亮橙黄色 */
+    --chart-4: 280 65% 60%; /* 柔和紫色 */
+    --chart-5: 340 75% 55%; /* 明亮红紫色 */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "菜单": "menu",
+  "工程机械": "engineer machine",
+  "农业机械": "agricultural machine",
+  "运输业务": "transportation business",
+  "其他业务": "other business",
+  "关于我们": "about us",
+
+  "首页": "home",
+  "网站地图": "sitemap",
+  "业务范围": "business scope",
+  "联系我们": "contact us",
+  "快速链接": "quick links",
+  "帮助中心": "help center",
+  "隐私政策": "privacy policy",
+  "条款与条件": "terms and conditions",
+
+  "装载机": "loader",
+  "挖掘机": "excavator",
+  "罐车": "mixed truck",
+  "二手车": "usedcar",
+
+  "农机配件": "tools for agriculture"
+}
